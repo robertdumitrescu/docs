@@ -62,6 +62,8 @@ git submodule foreach npm install
 
 #### Adding a new project to the stack
 
+##### To the root folder
+
 In order to do that we will run the following command which will add another git submodule to the working stack:
 ```
 git submodule add {your-repository-clone-link}
@@ -71,6 +73,19 @@ So your command will look something like:
  
  ```
  git submodule add git@github.com:robertdumitrescu/docs.git
+```
+
+##### To a specific sub-folder
+
+In order to do that we will run the following command which will add another git submodule to the working stack:
+```
+git submodule add --force {your-repository-clone-link} {your-subfolder-location}
+```
+
+So your command will look something like: 
+ 
+ ```
+git submodule add --force git@github.com:robertdumitrescu/docs.git src/docs
 ```
 
 ### Updating git submodules
