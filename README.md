@@ -1,4 +1,4 @@
-# Docs
+# Docs - OBSOLETE - Moved to swp-scripts
 
 ## Contents
 
